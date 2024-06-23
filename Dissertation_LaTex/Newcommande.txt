@@ -1,0 +1,26 @@
+%subsubsection下继续编号
+\newcounter{c}[subsubsection]
+\newcommand{\stpc}[1]{\stepcounter{#1}}
+%\stpc{c}\paragraph{(\arabic{c})}
+%\newcommand{\para}[1]{\stpc{c}\paragraph{(\arabic{c})}}
+%可以新定义\para，但是不能重新定义\paragraph，似乎是因为计算量过大，这里不取重新定义，因为原代码\paragraph的蓝色字体比较醒目。
+
+%章节名称
+%\subsubsection{\MakeCapital{\difwenbai}}
+%\subsubsection{\MakeCapital{\difwenbai} (\iso)}
+%\subsubsection{\MakeCapital{\diflaoxin}}
+%\subsubsection{\MakeCapital{\diflaoxin} (\iso)}
+
+%\stpc{c}\paragraph{(\arabic{c})}
+%Les syllabes \termyyx{} ont pour couche archaïque et pour couche récente , e.g.  
+%\illustre \ref{tab:}.
+%系统文白Selon \textcite[XXX]{XXX}, il existe des différences systématiques entre les \difwenbai. \illustre \ref{tab:}.
+%孤立文白\isowenbai \illustre \ref{tab:}.
+%系统老新Selon \textcite[XXX]{XXX}, il existe des différences systématiques entre les \diflaoxin. \illustre \ref{tab:}.
+%孤立老新\isolaoxin \illustre \ref{tab:}.
+
+%表格名称
+%Les \difwenbai du XXX
+%Les \difwenbai du XXX (\iso)
+%Les \diflaoxin du XXX
+%Les \diflaoxin du XXX (\iso)

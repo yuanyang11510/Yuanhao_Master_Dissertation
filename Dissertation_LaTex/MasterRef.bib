@@ -1,0 +1,887 @@
+%作者多于一人时，“and”后面的作者姓名内容要将把名（包括中文全名）放在拉丁字母形式的姓前面，否则编译出来会显示前者在后者的前面
+%但是编者多于一人时，“and”后面的编者姓名内容不需要变换顺序
+%现在发现顺序也不应该调换，否则会导致在正文中显示的是前面一半包含中文全名的名字部分
+%为了区分同姓作者，一部分作者的名字在编译后会在文中显示全名（包括汉字），暂时找到的解决办法是将逗号前拼音（也就是姓）的最后一个字母用\lowercase{}括起来，这样编译后会通过显示名字的第一个字母的大写来进行区分同姓作者
+
+@Book{Li2002fangyan,
+  editor    = {Lǐ, Róng李榮},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{X}iàndài hànyǔ fāngyán dà cídiǎn現代漢語方言大詞典[{D}ictionnaire des dialectes chinois modernes]},
+  year      = {2002},
+  location  = {Nanjing},
+}
+
+@Book{Yin1997Haerbin,
+  author    = {Yǐn, Shìchāo尹世超},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{H}ā'ěrbīn fāngyán cídiǎn哈爾濱方言詞典 [{D}ictionnaire du dialecte de {H}aerbin]},
+  year      = {1997},
+  location  = {Nanjing},
+}
+
+@Book{Qian1997Jinan,
+  author    = {Qián, Zēngyí錢曾怡},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{J}ǐnán fāngyán cídiǎn濟南方言詞典 [{D}ictionnaire du dialecte {J}inan]},
+  year      = {1997},
+  location  = {Nanjing},
+}
+
+@Book{Wang1996Xian,
+  author    = {Wáng, Jūnhǔ王軍虎},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{X}ī'ān fāngyán cídiǎn西安方言詞典 [{D}ictionnaire du dialecte de {X}i'an]},
+  year      = {1996},
+  location  = {Nanjing},
+}
+
+@Book{Liang1998Chendu,
+  author    = {Liáng, Démàn梁德曼},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{C}héngdū fāngyán cídiǎn成都方言詞典 [{D}ictionnaire du dialecte de {C}hengdu]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Liu1995Nanjing,
+  author    = {Liú, Dānqīng劉丹青},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{N}ánjīng fāngyán cídiǎn南京方言詞典 [{D}ictionnaire du dialecte de {N}anjing]},
+  year      = {1995},
+  location  = {Nanjing},
+}
+
+@Book{Shen1994Taiyuan,
+  author    = {Shěn, Míng沈明},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{T}àiyuán fāngyán cídiǎn太原方言詞典 [{D}ictionnaire du dialecte de {T}aiyuan]},
+  year      = {1994},
+  location  = {Nanjing},
+}
+
+@Book{Zhao2003Jixi,
+  author    = {Zhào, Rìxīn趙日新},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{J}ìxī fāngyán cídiǎn績溪方言詞典 [{D}ictionnaire du dialecte de {J}ixi]},
+  year      = {2003},
+  location  = {Nanjing},
+}
+
+@Book{Ye1993Suzhou,
+  author    = {Yè, Xiánglíng葉祥苓},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{S}ūzhōu fāngyán cídiǎn蘇州方言詞典 [{D}ictionnaire du dialecte de {S}uzhou]},
+  year      = {1993},
+  location  = {Nanjing},
+}
+
+@Book{You1998Wenzhou,
+  author    = {Yóu, Rǔjié游汝杰 and Yáng, Qiánmíng楊乾明},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{W}ēnzhōu fāngyán cídiǎn溫州方言詞典 [{D}ictionnaire du dialecte de {W}enzhou]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Bao1998Changsha,
+  author    = {Bào, Hòuxīng鮑厚星 and Cuī, Zhènhuá崔振華 and Shěn, Ruòyún沈若雲 and Wǔ, Yúnjī伍雲姬},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{C}hángshā fāngyán cídiǎn長沙方言詞典 [{D}ictionnaire du dialecte de {C}hangsha]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Yan1994Loudi,
+  author    = {Yán, Qīnghuī顏清徽 and Liú, Lìhuá劉麗華},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{L}óudǐ fāngyán cídiǎn婁底方言詞典 [{D}ictionnaire du dialecte de {L}oudi]},
+  year      = {1994},
+  location  = {Nanjing},
+}
+
+@Book{Xiong1995Nanchang,
+  author    = {Xióng, Zhènghuī熊正輝},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{N}ánchāng fāngyán cídiǎn南昌方言詞典 [{D}ictionnaire du dialecte de {N}anchang]},
+  year      = {1995},
+  location  = {Nanjing},
+}
+
+@Book{Huang1995Meixian,
+  author    = {Huáng, Xuězhēn黃雪貞},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{M}éixiàn fāngyán cídiǎn梅縣方言詞典 [{D}ictionnaire du dialecte de {M}eixian]},
+  year      = {1995},
+  location  = {Nanjing},
+}
+
+@Book{Bai1998Guangzhou,
+  author    = {Bái, Wǎnrú白宛如},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{G}uǎngzhōu fāngyán cídiǎn廣州方言詞典 [{D}ictionnaire du dialecte de {G}uangzhou]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Feng1998Fuzhou,
+  author    = {Féng, Aizhēn馮愛珍},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{F}úzhōu fāngyán cídiǎn福州方言詞典 [{D}ictionnaire du dialecte de {F}uzhou]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Zhou1998Xiamen,
+  author    = {Zhōu, Chángjí周長楫},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{X}iàmén fāngyán cídiǎn廈門方言詞典 [{D}ictionnaire du dialecte de {X}iamen]},
+  year      = {1998},
+  location  = {Nanjing},
+}
+
+@Book{Baxter1992handbook,
+  author    = {Baxter, William H.},
+  publisher = {Mouton De Gruyter},
+  title     = {{A} Handbook of {O}ld {C}hinese {P}honology},
+  year      = {1992},
+  location  = {Berlin·New York},
+}
+
+@Book{CASSInsLin1981zibiao,
+  author    = {Institute of Linguistics, Chinese Academy of Social Sciences},
+  publisher = {Commercial Press},
+  title     = {{F}āngyán diàochá zì biǎo方言调查字表[{M}anuel pour l'enquête des dialectes]},
+  year      = {1981},
+  location  = {Beijing},
+}
+
+@MastersThesis{Chen2022guilin,
+  author = {Chén, Hǎitíng陈海婷},
+  school = {Université normale du Guangxi},
+  title  = {{G}uìlín shì chéngqū tǔhuà yǔyīn yánjiū桂林市城区土话语音研究[{E}tudes phonétiques sur le {P}inghua urbain de {G}uilin]},
+  year   = {2022},
+}
+
+@InBook{Ye1988suzhou,
+  author    = {Yè, Xiánglíng葉祥苓},
+  publisher = {Shanghai Educational Publishing House},
+  title     = {{S}ūzhōu fāngyán zhōng de wén bái yìdú苏州方言中的文白异读[{P}rononciations littéraires et familières dans le dialecte de {S}uzhou]},
+  year      = {1988},
+  booktitle = {Wúyǔ lùncóng吴语论丛[Symposium du chinois Wu]},
+  location  = {Shanghai},
+  page      = {18--26},
+}
+
+@InBook{Shen1988shanghai,
+  author    = {Shěn, Tóng沈同},
+  publisher = {Shanghai Educational Publishing House},
+  title     = {{S}hànghǎihuà li de yīxiē yìdú xiànxiàng上海话里的一些异读现象[{Q}uelques phénomènes de prononciations littéraires et familières dans le dialecte de {S}hanghai]},
+  year      = {1988},
+  booktitle = {Wúyǔ lùncóng吴语论丛[Symposium du chinois Wu]},
+  location  = {Shanghai},
+  page      = {132--139},
+}
+
+@Book{Wang1996suzhou,
+  author    = {Wāng, Píng汪平},
+  publisher = {Huazhong University of Science and Technology Press},
+  title     = {{S}ūzhōu fāngyán yǔyīn yánjiū苏州方言语音研究[{E}tudes phonétiques sur le dialecte de {S}uzhou]},
+  year      = {1996},
+  location  = {Wuhan},
+}
+
+@Article{Ding2002suzhou,
+  author  = {Ting, Pang-Hsin丁邦新},
+  journal = {Zhōngguó yǔwén中国语文[Studies of the Chinese Language]},
+  title   = {“{S}ūzhōu tóngyīn chángyòng zìhuì” zhī wénbái yìdú《苏州同音常用字彙》之文白异读[{P}rononciations littéraires et familières dans le dialecte de {S}uzhou au début du vingtième siècle]},
+  year    = {2002},
+  number  = {5},
+  pages   = {9},
+}
+
+@Article{Wu2006wenzhou,
+  author  = {Wú, Ānqí吴安其},
+  journal = {Nánkāi yǔyán xuékān南开语言学刊[Nankai Linguistics]},
+  title   = {{W}ēnzhōuhuà shēngmǔ de wénbáidú hé zhōnggǔ shēngyùn de gòunǐ温州话声母的文白读和中古声韵的构拟[{L}nitiales dans le dialecte de {W}enzhou et leurs prononciations littéraires et familières]},
+  year    = {2006},
+  number  = {1},
+  pages   = {21--32},
+}
+
+@Article{Wu2005wenzhou,
+  author  = {Wú, Ānqí吴安其},
+  journal = {Nánkāi yǔyán xuékān南开语言学刊[Nankai Linguistics]},
+  title   = {{W}ēnzhōuhuà de yùnmǔ jí qí wénbái yìdú温州话的韵母及其文白异读[{R}imes dans le dialecte de {W}enzhou et leurs prononciations littéraires et familières]},
+  year    = {2005},
+  number  = {2},
+  pages   = {9--24},
+}
+
+@Book{Zhao1956wu,
+  author    = {Chao, Yuen Ren趙元任},
+  publisher = {Science Press},
+  title     = {{X}iàndài wúyǔ de yánjiū (fù diàochá biǎogé)現代吳語的研究（附調查表格）[{E}tudes sur le chinois {W}u moderne (avec tables de l'enquête)] (1\superscript{ère} éd. 1927)},
+  year      = {1956},
+  location  = {Beijing},
+}
+
+@Book{Sagart1993gan,
+  author    = {Sagart, Laurent},
+  publisher = {Editions Langages croisés},
+  title     = {{L}es dialectes {G}an : {E}tudes sur la phonologie et le lexique d'un groupe de dialectes chinois},
+  year      = {1993},
+  isbn      = {2909003191},
+  pages     = {281},
+  subtitle  = {études sur la phonologie et le lexique d'un groupe de dialectes chinois = Kan fang yen yen chiu},
+}
+
+@article{jacques2019save,
+  title={Save the trees: Why we need tree models in linguistic reconstruction (and when we should apply them)},
+  author={Jacques, Guillaume and List, Johann-Mattis},
+  journal={Journal of Historical Linguistics},
+  volume={9},
+  number={1},
+  pages={128--167},
+  year={2019},
+  publisher={John Benjamins}
+}
+
+@Book{Zhengzhang2008wenzhou,
+  author    = {Zhèngzhāng, Shàngfāng郑张尚芳},
+  publisher = {Zhonghua Book Company},
+  title     = {{W}ēnzhōu fāngyán zhì温州方言志[{C}horographie dialectal de {W}enzhou]},
+  year      = {2008},
+  location  = {Beijing},
+}
+
+@InBook{Pan1998wenzhou,
+  author    = {Pān, Wùyún潘悟云},
+  editor    = {Hóu, Jīngyī侯精一},
+  publisher = {Shanghai Educational Publishing House},
+  title     = {{W}ēnzhōu huà yīndàng温州话音档[{E}nregistrement du dialecte de {W}enzhou]},
+  year      = {1998},
+  booktitle = {Xiàndài hànyǔ fāngyán yīnkù现代汉语方言音库[Phonobase des dialectes chinois modernes},
+  location  = {Shanghai},
+}
+
+%{Chen2013stratification,
+%  title={Hànyǔ fāngyán yǔyīn shǐ yánjiū yǔ lìshǐ céngcì fēnxī fǎ汉语方言语音史研究与历史层次分析法[Etudes sur l'histoire phonétique des dialectes chinois et la méthode de stratification]},
+%  author={Ché\lowercase{n}, Zhōngmǐn陈忠敏},
+%  location = {Beijing},
+%  journal={Zhonghua Book Company},
+%  volume={71},
+%  year={2013},
+%}
+
+@Article{Chen2003yu,
+  author  = {Ché\lowercase{n}, Zhōngmǐn陈忠敏},
+  journal = {Yǔyánxué lùncóng语言学论丛[Essays on Linguistics]},
+  title   = {{W}úyǔ jí línjìn fāngyán yúyùn de dúyīn céngcì--jiān lùn “jīnlíng qièyùn” yúyùn de yīnzhí吴语及邻近方言鱼韵的读音层次--兼论``金陵切韵''鱼韵的音值[{U}ne discussion sur les différences de prononciation de la catégorie {Y}u (鱼) dans le wu et les dialectes voisins ： avec quelques réflexions supplémentaires sur sa reconstruction au sein de {Q}ieyun]},
+  year    = {2003},
+  pages   = {11--55},
+  volume  = {27},
+}
+
+@Article{Chen2005couche,
+  author  = {Ché\lowercase{n}, Zhōngmǐn陈忠敏},
+  journal = {Yǔyán yánjiū jíkān语言研究集刊[Bulletin of Linguistic Studies]},
+  title   = {{L}ún yǔyīn céngcì de shíjiān xiānhòu论语音层次的时间先后[{Q}uelques notes sur les étapes chronologiques des strates sonores]},
+  year    = {2005},
+  number  = {1},
+  pages   = {123--132},
+}
+
+@Article{Shi2019wu_sud_tan,
+  author  = {Shī, Jùn施俊},
+  journal = {Nánkāi yǔyán xuékān南开语言学刊[Nankai Linguistics]},
+  title   = {{L}ùn nánbù wúyǔ tán tán yùn de dúyīn céngcì论南部吴语覃谈韵的读音层次[{S}trates sonores des rimes tan/tan dans les variantes du {W}u du {S}ud]},
+  year    = {2019},
+}
+
+@Article{Zhengzhang1989liu_wenzhou,
+  author  = {Zhèngzhāng, Shàngfāng郑张尚芳},
+  journal = {Wēnzhōu shīfàn xuéyuàn xuébào (zhéxué shèhuì kēxué bǎn)温州师范学院学报(哲学社会科学版)[ Journal of Wenzhou Normal College (Philosophy and Social Sciences Edition)]},
+  title   = {{W}ēnzhōu huà liú shè yīsān děng jiāotì de tèdiǎn温州话流摄一三等交替的特点[{L}es caractéristiques de l'alternance entre la première division et la troisième division du groupe de rimes {L}iu dans le dialecte de {W}enzhou]},
+  year    = {1989},
+  number  = {4},
+  pages   = {97--100},
+}
+
+@Article{Zheng2018zhi_wei_yu,
+  author  = {Zhèng, Wěi郑伟},
+  journal = {Zhōngguó yǔyán xuébào中国语言学报[Journal of Chinese Linguistics]},
+  title   = {{X}iàndài fāngyán ``zhī wēi rù yú''de xiāngduì niándài现代方言``支微入虞''的相对年代[{U}ne observation chronologique relative sur les rimes ``{Z}hi（支）'' et ``{W}ei（微）'' fusionnant en ``{Y}u（虞）'' dans les dialectes chinois]},
+  year    = {2018},
+}
+
+@Article{Zheng2012zhi_wei_yu,
+  author    = {Zhèng, Wěi郑伟},
+  journal   = {Yǔyán jì yǔyán xué語言暨語言學[Language and Linguistics]},
+  title     = {[{Z}hī wēi rù yú] yǔ xiàndài fāngyán[支微入虞] 與現代方言[{C}onvergence de {Z}hi (支) et {W}ei (微) en {Y}u (虞) et dialectes chinois modernes]},
+  year      = {2012},
+  number    = {5},
+  pages     = {887--928},
+  volume    = {13},
+  publisher = {Zhōngyāng yán jiù yuàn yǔyán xué yánjiū suǒ中央研究院語言學研究所[Institute of Linguistics, Academia Sinica]},
+}
+
+@Article{Wang2015zuo_wu,
+  author  = {Wāng, Wéihuī汪维辉 and Akitani, Hiroyuki秋谷裕幸},
+  journal = {Yǔwén yánjiū语文研究[Linguistic Research]},
+  title   = {{W}úyǔ zhōng biǎoshì ``zuǒ'' de běnzì吴语中表示 ``左'' 的本字[{L}'étymologie de la syllabe signifiant ``gauche'' du chinois {W}u]},
+  year    = {2015},
+  number  = {4},
+  pages   = {15--18},
+}
+
+@Article{Zheng2010zeng_geng_taihu_wu,
+  author  = {Zhèng, Wěi郑伟},
+  journal = {Nánkāi yǔyán xuékān南开语言学刊[Nankai Linguistics]},
+  title   = {{W}úyǔ tàihú piàn zēng gěng shè zì de dúyīn jí qí yǎnbiàn吴语太湖片曾梗摄字的读音及其演变[{D}ifférentes prononciations des groupes {Z}eng-{G}eng et de ses strates dans le groupe {T}aihu du {W}u]},
+  year    = {2010},
+  number  = {2},
+  pages   = {72--82},
+}
+
+@Article{Zheng2009guo_wu,
+  author  = {Zhèng, Wěi郑伟},
+  journal = {Yǔyán kēxué语言科学[Linguistic Sciences]},
+  title   = {{W}úyǔ tàihú piàn guǒ shè de yǎnhuà móshì yǔ lìshǐ céngcì吴语太湖片果摄的演化模式与历史层次[{L}'évolution phonologique et les strates de {G}uo-{S}he dans le groupe {T}aihu {L}ake du {W}u]},
+  year    = {2009},
+}
+
+@Book{Alexandro1651dictionarium,
+  author    = {de Rhodes, Alexandre},
+  publisher = {Typis, \& sumptibus ejusdem Sacr. Congreg.},
+  title     = {{D}ictionarium {A}nnamiticum {L}usitanum et {L}atinum},
+  year      = {1651},
+  location  = {Romae},
+}
+
+@PhdThesis{Wang2005qiezi,
+  author = {Wáng, Jǐnxiù王锦秀},
+  school = {Institute of Botany, the Chinese Academy of Sciences},
+  title  = {\textit{{Z}híwù míngshí tú kǎo} zhōng yīxiē bǎihé kē zhíwù kǎozhèng jiān lùn qiézi zài zhōngguó de zāipéi qǐyuán hé chuánbō——zhíwù kǎojù xué gèlì yánjiū《植物名实图考》中一些百合科植物考证兼论茄子在中国的栽培起源和传播——植物考据学个例研究[{U}ne recherche textuelle sur quelques liliacées de \textit{Chi {W}u {M}ing {S}hi {T}'{U} {K}'{A}o} et la domestication et la dispersion de l'aubergine en {C}hine ——{É}tudes de cas de textologie végétale]},
+  year   = {2005},
+}
+
+@Article{Shi2019she_suzhou,
+  author    = {Shí, Rǔjié石汝杰},
+  journal   = {Kumamotogakuendaigaku bungaku$\cdot$gengo-gaku ronshū熊本学園大学文学$\cdot$言語学論集[KGU Journal of Language and Literature]},
+  title     = {19 {S}hìjìmò sūzhōu fāngyán de shéjiān hòu yīn shēng mǔ19世纪末苏州方言的舌尖后音声母[{C}onsonnes initiales rétroflexes du dialecte de {S}uzhou à la fin du 19e siècle]},
+  year      = {2019},
+  number    = {2$\cdot$1},
+  pages     = {1--18},
+  volume    = {25},
+  publisher = {熊本学園大学文学・言語学論集編集会議},
+}
+
+@Book{Ye1988suzhou_fangyanzhi,
+  author    = {Yè, Xiánglíng葉祥苓},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{S}ūzhōu fāngyán zhì苏州方言志[{C}horographie dialectal de {S}uzhou]},
+  year      = {1988},
+  location  = {Nanjing},
+}
+
+@Article{Chen2016laji,
+  author  = {Chén, Yuányuán陈源源},
+  journal = {Nánkāi yǔyán xuékān南开语言学刊[Nankai Linguistics]},
+  title   = {``{L}āji'' yuánliú kǎo``垃圾'' 源流考[{L}'étymologie du mot ``'lāji']},
+  year    = {2016},
+  number  = {1},
+  pages   = {66--72},
+}
+
+%{Li2019wenzhou_yinyinqiuzi,
+%  title={\textit{Yīn yīn qiú zì} yīnxì yánjiū《因音求字》音系研究[Etudes sur le système phonologique du \textit{Yinyin Qiuzi]}},
+%  author={Lǐ, Wénwén李雯雯},
+%  journal={Wenzhou University},
+%  year={2019},
+  %note={20--21[-h], 52[ga]},
+}
+
+@Article{Sagart2001hani,
+  author    = {Sagart, Laurent and Xu, Shixuan},
+  journal   = {Cahiers de linguistique Asie orientale},
+  title     = {{H}istory through loanwords: the loan correspondences between {H}ani and {C}hinese},
+  year      = {2001},
+  number    = {1},
+  pages     = {3--54},
+  volume    = {30},
+  publisher = {Brill},
+}
+
+@Article{Wang2003benzi,
+  author  = {Wáng, Fútáng王福堂},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{F}āngyán běnzì kǎozhèng shuōlüè方言本字考证说略[{E}squisse d'une note étymologique des mots des dialectes chinois]},
+  year    = {2003},
+  number  = {4},
+  pages   = {289--298},
+}
+
+@Book{Xu1997shanghai,
+  author    = {Xǔ, Bǎohuá許寶華 and Táo, Huán陶寰},
+  publisher = {Jiangsu Education Publishing House},
+  title     = {{S}hànghǎi fāngyán cídiǎn上海方言词典[{D}ictionnaire du dialecte de {S}hanghai]},
+  year      = {1997},
+  location  = {Nanjing},
+}
+
+@Book{Li1991Changsha,
+  author    = {Lǐ, Yǒngmíng李永明},
+  publisher = {Hunan Publishing House (?)},
+  title     = {{C}hángshā fāngyán长沙方言[{D}ialecte de {C}hangsha]},
+  year      = {1991},
+  location  = {Changsha},
+}
+
+@Book{Bao1999changsha,
+  author    = {Bào, Hòuxīng鮑厚星 and Cuī, Zhènhuá崔振華 and Shěn, Ruòyún沈若雲 and Wǔ, Yúnjī伍雲姬},
+  publisher = {Hunan Education Publishing House},
+  title     = {{C}hángshā fāngyán yánjiū长沙方言研究[{E}tudes sur le dialecte de {C}hangsha]},
+  year      = {1999},
+  location  = {Changsha},
+}
+
+@Book{Chen2006xiang,
+  author    = {Ché\lowercase{n}, Huī陈晖},
+  publisher = {Hunan Normal University Press},
+  title     = {{X}iāng fāngyán yǔyīn yánjiū湘方言语音研究[{E}tudes phonétiques sur le {X}iang]},
+  year      = {2006},
+  location  = {Changsha},
+}
+
+@Book{Liu2001loudi,
+  author    = {Liú, Lìhuá刘丽华},
+  publisher = {Central South University Press},
+  title     = {{L}óudǐ fāngyán yánjiū娄底方言研究[{E}tudes sur le dialecte de {L}oudi]},
+  year      = {2001},
+  location  = {Changsha},
+}
+
+@PhdThesis{Peng2010xiang,
+  author = {Péng, Jiànguó彭建国},
+  school = {Shanghai Normal University},
+  title  = {{X}iāngyǔ yīnyùn lìshǐ céngcì yánjiū湘语音韵历史层次研究[{E}tudes sur les strates historiques de la phonologie du {X}iang]},
+  year   = {2006},
+}
+
+@PhdThesis{Zhou2005xiang,
+  author = {Zhōu, Sàihóng周赛红},
+  school = {Hunan Normal University},
+  title  = {{X}iāng fāngyán yīnyùn bǐjiào yánjiū湘方言音韵比较研究[{U}ne étude comparative de la phonologie du dialecte {X}iang]},
+  year   = {2005},
+}
+
+@Book{Yang1974hunan,
+  author    = {Yang, Shih-feng楊時逢},
+  publisher = {Institute of History and Philology, Academia Sinica},
+  title     = {{H}únán fāngyán diàochá bàogào湖南方言調查報告[{R}apport d'enquête sur les dialectes du {H}unan]},
+  year      = {1974},
+}
+
+@Book{Zhou1998xiamen_yanjiu,
+  author    = {Zhōu, Chángjí周长楫 and Ōuyáng, Yìyún欧阳忆耘},
+  publisher = {Fujiqn Peopole's Publishing House},
+  title     = {{X}iàmén fāngyán yánjiū厦门方言研究[{E}tudes sur le dialecte de {X}iamen]},
+  year      = {1998},
+  location  = {Fuzhou},
+}
+
+@Book{Chen1998fuzhou,
+  author    = {Chén, Zépíng陈泽平},
+  publisher = {Fujiqn Peopole's Publishing House},
+  title     = {{F}úzhōu fāngyán yánjiū福州方言研究[{E}tudes sur le dialecte de {F}uzhou]},
+  year      = {1998},
+  location  = {Fuzhou},
+}
+
+@Article{Li1963xiamen,
+  author  = {L\lowercase{ǐ}, Rúlóng李如龙},
+  journal = {Xiàmén dàxué xuébào厦门大学学报[Journal of Xiamen University]},
+  title   = {{X}iàmén huà de wén bái yìdú厦门話的文白異讀[{L}es prononciations littéraires et familières du dialecte de {X}iamen]},
+  year    = {1963},
+  volume  = {2},
+}
+
+@MastersThesis{Yuan2018chengdu,
+  author = {Yuán, Qiūlěi袁秋蕾},
+  school = {East China Normal University},
+  title  = {{C}héngdū fāngyán wénbái yìdú de dòngtài yánjiū成都方言文白异读的动态研究[{U}ne étude dynamique des prononciations littéraires et familières dans le dialecte de {C}hengdu]},
+  year   = {2018},
+}
+
+@Article{Wang1958Taiyuan,
+  author  = {Wáng, Lìdá王立达},
+  journal = {Zhōngguó yǔwén中国语文[Studies of the Chinese Language]},
+  title   = {{T}àiyuán fāngyán zhōng de ``wénbái yìdú''xiànxiàng太原方言中的``文白异读''现象[{L}es prononciations littéraires et familières dans le dialecte de {T}aiyuan]},
+  year    = {1958},
+  number  = {1},
+  pages   = {29--30},
+}
+
+@Book{Zhang2010beijing,
+  author    = {Zhāng, Shìfāng张世方},
+  publisher = {Beijing Language and Culture University Press},
+  title     = {{B}ěijīng guānhuà yǔyīn yánjiū北京官话语音研究[{E}tudes phonétiques sur le mandarin de {B}eijing]},
+  year      = {2010},
+  location  = {Beijing},
+}
+
+@Book{Wang1995rongcheng,
+  author    = {Wán\lowercase{g}, Shūxiá王淑霞},
+  editor    = {Qián, Zēngcéngyí钱曾怡},
+  title     = {{R}óngchéng fāngyán zhì荣成方言志[{C}horographie dialectal de {R}ongcheng]},
+  year      = {1995},
+  booktitle = {Shāndōng fāngyán zhì cóngshū山东方言志丛书[Série de chorographies dialectal de Shandong]},
+  journal   = {Language and Culture Press},
+  location  = {Beijing},
+}
+
+@Book{Zhan2002yue,
+  author    = {Zhān, Bóhuì詹伯慧},
+  publisher = {Jinan University Press},
+  title     = {{G}uǎngdōng yuè fāngyán gàiyào广东粤方言概要[{U}n aperçu des dialectes {Y}ue dans le {G}uangdong]},
+  year      = {2002},
+  location  = {Guangzhou},
+}
+
+@Book{Sun2007xian,
+  author    = {Sūn, Lìxīn孙立新},
+  publisher = {Xi'an Publishing House},
+  title     = {{X}ī'ān fāngyán yánjiū西安方言研究[{E}tudes sur le dialecte de {X}i'an]},
+  year      = {2007},
+  location  = {Xi'an},
+}
+
+@Article{Xiong1985nanchang,
+  author  = {Xióng, Zhènghuī熊正輝},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{N}ánchāng fāngyán de wénbái dú南昌方言的文白读[{P}rononciations familières et littéraires du dialecte de {N}anchang]},
+  year    = {1985},
+  number  = {3},
+  pages   = {205--213},
+}
+
+@Article{Xiong1989nanchang,
+  author  = {Xióng, Zhènghuī熊正輝},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{N}ánchāng fāngyán tóngyīn zìhuì南昌方言同音字汇[{S}yllabaire homophone du dialecte de {N}anchang]},
+  year    = {1989},
+  number  = {3},
+  pages   = {182--195},
+}
+
+@Article{Yu1994meixian,
+  author  = {Yú, Bóxǐ余伯禧},
+  journal = {Sháoguān dàxué xuébào (shèhuì kēxué bǎn)韶关大学学报 (社会科学版)[Journal of Shaoshan University (Social Science)]},
+  title   = {{M}éixiàn fāngyán de wénbái yìdú梅县方言的文白异读[{L}es prononciations familières et littéraires du dialecte de {M}eixian]},
+  year    = {1994},
+  volume  = {1},
+}
+
+@InBook{Liu2009hakka_xie,
+  author    = {Liú, Zémín刘泽民},
+  editor    = {Lǐ, Rúlóng李如龙 and Dèng, Xiǎohuá邓晓华},
+  publisher = {Fujiqn Peopole's Publishing House},
+  title     = {{K}è gàn fāngyán xiè shè kāikǒu yī děng yùn de lìshǐ céngcì客赣方言蟹摄开口一等韵的历史层次[{S}trates historiques des rimes de la première division du groupe de rimes {X}ie des {G}an et {H}akka]},
+  year      = {2009},
+  booktitle = {客家方言研究},
+  location  = {Fuzhou},
+  page      = {122--138},
+}
+
+@InBook{Liu2009hakka_xia,
+  author    = {Liú, Zhènfā刘镇发},
+  editor    = {Lǐ, Rúlóng李如龙 and Dèng, Xiǎohuá邓晓华},
+  publisher = {Fujiqn Peopole's Publishing House},
+  title     = {{C}óng fāngyán bǐjiào kàn kèjiāhuà xiá mǔ zì de lìshǐ céngcì从方言比较看客家话匣母字的历史层次[{S}trates historiques des syllabes à initiale {X}ia dans la perspective de la comparaison entre les dialectes]},
+  year      = {2009},
+  booktitle = {客家方言研究},
+  location  = {Fuzhou},
+  page      = {139--149},
+}
+
+@InBook{Qiu2009hakka_xia,
+  author    = {Qiū, Zhòngsēn邱仲森},
+  editor    = {Lǐ, Rúlóng李如龙 and Dèng, Xiǎohuá邓晓华},
+  publisher = {Fujiqn Peopole's Publishing House},
+  title     = {{K}èjiāhuà gǔ xiǎo xiá mǔ yīnbiàn xiànxiàng kǎochá客家话古晓匣母音变现象考察[{A}nalyse des phénomènes du changement phonétique des initiales anciennes {X}iao et {X}ia du {H}akka]},
+  year      = {2009},
+  booktitle = {客家方言研究},
+  location  = {Fuzhou},
+  page      = {150--166},
+}
+
+@Article{Yan2004hakka_xia,
+  author  = {Yán, Xiūhóng严修鸿},
+  journal = {Shàntóu dàxué xuébào (Rénwén shèhuì kēxué bǎn)汕头大学学报（人文社会科学版）[Shantou University Journal (Humanities and Social Sciences Bimonthly)]},
+  title   = {{K}èjiāhuà xiá mǔ dú tóng qún mǔ de lìshǐ céngcì客家话匣母读同群母的历史层次[{L}a strate de *g- dans les variantes du {H}akka d'après une étude étymologique]},
+  year    = {2004},
+  number  = {1},
+  pages   = {41--44},
+  volume  = {20},
+}
+
+@Article{Cao2022tangxi,
+  author  = {Cáo, Zhìyún曹志耘},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{Z}hèjiāng jīnhuá tāng xī fāngyán de yǔ liú yīn biàn浙江金华汤溪方言的语流音变[{L}a variation contextualle dans le dialecte de {T}angxi de la ville de {J}inhua, province de {Z}hejiang]},
+  year    = {2022},
+  number  = {2},
+  pages   = {8},
+  volume  = {44},
+}
+
+@Article{Li1985diming,
+  author  = {L\lowercase{ǐ}, Rúlóng李如龙},
+  journal = {Yǔwén yánjiū语文研究[Linguistic Research]},
+  title   = {{D}ìmíng zhōng de gǔyīn地名中的古音[{L}es prononciations archaïques dans les toponymes]},
+  year    = {1985},
+  number  = {1},
+  pages   = {30--30},
+}
+
+@MastersThesis{Wang2017diming_yixian,
+  author = {Wán\lowercase{g}, Jiājiā王佳佳},
+  school = {Bohai University},
+  title  = {{H}éběi yì xiàn dìmíng de yǔyán xué kǎochá河北易县地名的语言学考察[{U}ne étude linguistique des toponymes dans le district de {Y}i, province du {H}ebei]},
+  year   = {2017},
+}
+
+@Book{Hashimoto2008diling,
+  author    = {Hashimoto, Mantaro桥本万太郎},
+  publisher = {Peking University Press},
+  title     = {{Y}ǔyán dìlǐ lèixíng xué语言地理类型学[{T}ypologie de la géographie linguistique]},
+  year      = {2008},
+  note      = {Traduit par Yú, Zhìhóng余志鸿},
+  location  = {Beijing},
+}
+
+@Article{Zhuang2016zhi2,
+  author  = {Zhuāng, Chūshēng庄初升 and Wàn, Bō万波},
+  journal = {Yǔyán yánjiū jíkān语言研究集刊[Bulletin of Linguistic Studies]},
+  title   = {{D}ōngnán fāngyán jǐ gè gǔ zhīzǔ èrděng zì tèshū jīndú de xìngzhì东南方言几个古知组二等字特殊今读的性质[{L}es prononciations spéciales de certains caractères du groupe {Z}hi de la deuxième division dans les dialectes du sud-est]},
+  year    = {2016},
+  number  = {2},
+  pages   = {71--84},
+}
+
+@Article{list2021annotating,
+  author  = {List, Johann-Mattis and Wu, Mei-Shin},
+  journal = {Language Dynamics and Change},
+  title   = {{A}nnotating cognates in phylogenetic studies of {S}outh-{E}ast {A}sian languages},
+  year    = {2021},
+  note    = {(forthcoming)[Authors’ Copy via Humanities Commons available at: \url{https://doi.org/10.17613/3n9j-y345}]},
+  pages   = {1--25},
+}
+
+@Article{wu2023annotating,
+  author    = {Wu, Mei-Shin and List, Johann-Mattis},
+  journal   = {Language Dynamics and Change},
+  title     = {{A}nnotating cognates in phylogenetic studies of {S}outheast {A}sian languages},
+  year      = {2023},
+  number    = {aop},
+  pages     = {1--37},
+  volume    = {1},
+  publisher = {Brill},
+}
+
+@Article{Wang1989fuzhou,
+  author  = {Wáng, Shēngkuí王升魁},
+  journal = {Fújiàn shīfàn dàxué xuébào (Zhéxué shèhuì kēxué bǎn)福建师范大学学报: 哲学社会科学版[Journal of Fujian Normal University(Philosophy and Social Sciences Edtion)]},
+  title   = {{S}ìbǎi duō nián lái fúzhōu huà wén bái yìdú de biànqiān四百多年来福州话文白异读的变迁[{C}hangements des prononciations littéraires et familières du dialecte de {F}uzhou au cours des 400 dernières années]},
+  year    = {1989},
+  number  = {1},
+  pages   = {64--70},
+}
+
+@Article{Lin1985fuzhou,
+  author  = {Lín, Hánshēng林寒生},
+  journal = {Xiàmén dàxué xuébào厦门大学学报[Journal of Xiamen University]},
+  title   = {{F}úzhōu huà wén bái yìdú tàntǎo福州话文白异读探讨[{U}ne discussion sur les prononciations littéraires et familières du dialecte de {F}uzhou]},
+  year    = {1985},
+  volume  = {1},
+}
+
+@Article{Liang1985fuzhou,
+  author  = {Liáng, Yùzhāng梁玉璋},
+  journal = {Fújiàn shīfàn dàxué xuébào (Zhéxué shèhuì kēxué bǎn)福建师范大学学报: 哲学社会科学版[Journal of Fujian Normal University(Philosophy and Social Sciences Edtion)]},
+  title   = {{F}úzhōu huà wén bái yìdú zì福州话文白异读字[{L}es caractères avec les prononciations littéraires et familières du {F}uzhou]},
+  year    = {1985},
+  number  = {1},
+  pages   = {77--85},
+}
+
+@Article{Norman1997min,
+  author  = {Norman, Jerry罗杰瑞},
+  journal = {Shǎnxī jiàoyù xuéyuàn xuébào陕西教育学院学报[Journal of Shaanxi Institute of Education]},
+  title   = {{M}ǐnyǔ cíhuì de shídài céngcì闽语词汇的时代层次[{C}hronological strata in the {M}in dialects]},
+  year    = {1997},
+  note    = {Traduit par Sòng, Wénchéng宋文程 and Zhāng, Wéijiā张维佳},
+  number  = {2},
+  pages   = {57--59},
+}
+
+@Article{Norman1979min,
+  author  = {Norman, Jerry},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{M}ǐnyǔ cíhuì de shídài céngcì (yīngwén)闽语词汇的时代层次 (英文)[{C}hronological strata in the {M}in dialects]},
+  year    = {1979},
+  volume  = {4},
+}
+
+@Book{Liu2007hexinci,
+  author    = {Liú, Lìlǐ刘俐李 and Wáng, Hóngzhōng王洪钟 and Bǎi, Yíng柏莹},
+  publisher = {Phoenix Publishing and Media, Inc.},
+  title     = {{X}iàndài hànyǔ fāngyán héxīn cí$\cdot$tèzhēng cí jí现代汉语方言核心词$\cdot$特征词集[{C}ollection de mots de base et de mots caractéristiques dans les dialectes chinois modernes]},
+  year      = {2007},
+  location  = {Nanjing},
+}
+
+@Book{Qian2010mandarin,
+  author    = {Qián, Zēngyí錢曾怡},
+  publisher = {Shandong Qilu Press Co., Ltd.},
+  title     = {{H}ànyǔ guānhuà fāngyán yánjiū汉语官话方言研究[{E}tudes sur les dialectes du mandarin du chinois]},
+  year      = {2010},
+  location  = {Jinan},
+}
+
+@Article{Xiong1979nanchang,
+  author  = {Xióng, Zhènghuī熊正輝},
+  journal = {Fāngyán方言[Dialect]},
+  title   = {{N}ánchāng fāngyán de shēngdiào jí qí yǎnbiàn南昌方言的声调及其演变[{L}es tons et leur évolution du dialecte de {N}anchang]},
+  year    = {1979},
+  pages   = {275},
+  volume  = {4},
+}
+
+@Article{Norman2003kejia,
+  author  = {Norman, Jerry},
+  journal = {Yǔyánxué lùncóng语言学论丛[Essays on Linguistics]},
+  title   = {{H}éwèi kèjiā huà何谓客家话？[{W}hat is a {K}ejia {D}ialect ?]},
+  year    = {2003},
+  note    = {Traduit par Xiàng, Mèngbīng项梦冰, relu par Zhān, Wèidōng詹卫东},
+  pages   = {340--365},
+  volume  = {28},
+}
+
+@article{aikio2007etymological,
+  title={Etymological nativization of loanwords},
+  author={Aikio, Ante},
+  journal={A case study of Saami and Finnish. Teoksessa Ida Toivonen--Diane Nelson (toim.), Saami Linguistics},
+  pages={17--52},
+  year={2007},
+}
+
+@Article{Zhengzhang1983wenzhou_guo,
+  author  = {Zhèngzhāng, Shàngfāng郑张尚芳},
+  journal = {Yǔyán yánjiū语言研究[Studies in Language and Linguistics]},
+  title   = {{W}ēnzhōu fāngyán gē yùn dúyīn de fēnhuà hé lìshǐ céngcì温州方言歌韵读音的分化和历史层次[{L}a séparation des prononciations et les strates des syllabes du groupe de rimes {G}uo (果) du chinois moyen dans le dialecte de {W}enzhou]},
+  year    = {1983},
+  number  = {2},
+  pages   = {108--120},
+}
+
+@Article{Sun2017nanwu_guo,
+  author  = {Sūn, Yízhì孙宜志},
+  journal = {Yǔyán kēxué语言科学[Linguistic Sciences]},
+  title   = {{N}ánbù wúyǔ guǒ shè yī děng zì de céngcì jí yǎnbiàn南部吴语果摄一等字的层次及演变[{L}es strates et le développement de la première division du groupe de rimes {G}uo (果) du chinois moyen dans les variantes du {W}u du {S}ud]},
+  year    = {2017},
+  number  = {1},
+  pages   = {71--81},
+  volume  = {16},
+}
+
+@Article{Tao2018yunxia,
+  author  = {Táo, Huán陶寰},
+  journal = {Zhōngguó yǔwén中国语文[Studies of the Chinese Language]},
+  title   = {{W}ú mǐn yǔ yún, xiá mǔ de dúyīn hé mǐn yǔ quánzhuó shēngmǔ de qīnghuà吴闽语云, 匣母的读音和闽语全浊声母的清化[{L}es prononciations des initiales {Y}un (云) et {X}ia (匣) dans les dialectes {W}u et {M}in et le dévoisement des initiales obstruantes du chinois moyen dans les dialectes {M}in]},
+  year    = {2018},
+  number  = {3},
+  pages   = {335--350},
+}
+
+@InBook{Tao2016manhua,
+  author    = {Táo, Huán陶寰},
+  editor    = {Zhèng, Wěi郑伟},
+  pages     = {53--63},
+  publisher = {Zhongxi Book Commpany},
+  title     = {{C}āngnán mánhuà de zhuóyīn shēngmǔ jí xiāngguān wèntí——jiān lùn fāngyán jiēchù zhōng de tā kòng yīn biàn苍南蛮话的浊音声母及相关问题——兼论方言接触中的他控音变[{L}es initiales voisées du {M}an-hua de {C}angnan et d'autres questions concernées——également sur le changement phonétique motivé par l'autre variante dans le contact dialectal]},
+  year      = {2016},
+  booktitle = {Biānjiè fāngyán yǔyīn yǔ yīnxì yǎnbiàn lùnjí边界方言语音与音系演变论集[Collection sur l'évolution phonétique et phonologique des dialectes sur les frontières]},
+  location  = {Shanghao},
+}
+
+@Book{Xie2003kejia,
+  author    = {Xiè, Liúwén谢留文},
+  publisher = {China Social Sciences Press},
+  title     = {{K}èjiā fāngyán yǔyīn yánjiū客家方言语音研究[{E}tudes phonétiques sur le {H}akka]},
+  year      = {2003},
+  location  = {Beijing},
+}
+
+@book{judd2008plant,
+  title={Plant systematics: a phylogenetic approach},
+  author={Judd, Walter S. and Campbell, Christopher S. and Kellogg, Elizabeth A. and Stevens, Peter F. and Donoghue, Michael J.},
+  year={2008},
+  publisher={Sinauer Associates, Inc.},
+  location={Sunderland},
+  note={Third Edition},
+}
+
+@book{hall2018phylogenetic,
+  title={Phylogenetic trees made easy},
+  author={Hall, Barry G.},
+  year={2018},
+  publisher={Oxford University Press},
+  location={New York},
+  note={Fifth Edition},
+}
+
+@InBook{pellardfamily,
+  author    = {Pellard, Thomas and Ryder, Robin J. and Jacques, Guillaume},
+  editor    = {Ledgeway, Adam and Aldridge, Edith and Breitbarth, Anne and Kiss, Karalin E. and Salmons, Joseph},
+  title     = {{T}he {F}amily {T}ree {M}odel},
+  year      = {2023},
+  note      = {Preprint 2023-05-11},
+  booktitle = {The Wiley Blackwell companion to diachronic linguistics},
+  url       = {https://www.academia.edu/101656989/The_Family_Tree_model},
+}
+
+@Book{li1987atlas,
+  editor    = {Lǐ, Róng 李荣},
+  publisher = {Longman},
+  title     = {{Z}hōngguó yǔyán dìtú jí中国语言地图集[{A}tlas des langues de la {C}hine]},
+  year      = {1987},
+  location  = {Hongkong},
+}
+
+@Book{xiong2012atlas,
+  editor    = {Xióng, Zhènghuī 熊正辉 and Zhāng, Zhènxīng 张振兴},
+  publisher = {Commercial Press},
+  title     = {{Z}hōngguó yǔyán dìtú jí ({D}ì èr bǎn) : {H}ànyǔ fāngyán juǎn 中国语言地图集 （第二版）：汉语方言卷[{A}tlas des langues de la {C}hine (2\textsuperscript{ème} version) : Volume des dialects du chinois]},
+  year      = {2012},
+  location  = {Beijing},
+}
+
+@Article{li2012pinghua,
+  author  = {Lǐ, Xiǎofán 李小凡},
+  journal = {Yǔyán kēxué 语言科学[Linguistic Sciences]},
+  title   = {{P}ínghuà de guīshǔ hé hànyǔ fāngyán fēnlèi 平话的归属和汉语方言分类[{L}'affiliation de {P}inghua et la classification des dialectes chinois]},
+  year    = {2012},
+  number  = {5},
+  pages   = {509--517},
+  volume  = {11},
+}
+
+@Article{sagart2011classifying,
+  author  = {Sagart, Laurent},
+  journal = {PaperpresentedattheS{\'e}minaireSino-Tib{\'e}tainduCRLAO (2011-03-28). Downloadable at https://www. academia. edu/19534510 (accessed February 4, 2018)},
+  title   = {{C}lassifying {C}hinese dialects/{S}initic languages on shared innovations},
+  year    = {2011},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

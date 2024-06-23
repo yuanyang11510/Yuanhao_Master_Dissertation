@@ -1,2 +1,2 @@
 # Dissertation-Master-Codes
-In this repository I uploaded the data and the codes I used for treating them.
+之前这个仓库存放的是硕士论文中使用的一些代码，现在将所有的相关数据都上传到这里，LaTex代码还有许多需要修改的地方，硕士论文的许多内容也需要修改、增添或者重写，但是目前没有时间做这项工作，只能等将来有时间的时候再做。
